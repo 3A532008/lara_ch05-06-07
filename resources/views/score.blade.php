@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('layouts.master')
 
 @section('title','詳細資料')
 
@@ -17,7 +17,7 @@
 		<p>
 			電話：0912345678
 		</p>
-		學號：{{ Sstudent_no }}
+		學號：{{ $student_no }}
 
 		@endif
 	</div>
